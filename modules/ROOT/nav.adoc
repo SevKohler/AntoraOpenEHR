@@ -1,0 +1,2 @@
+* Base Types
+*** xref:ROOT:foundation_types/master.adoc
