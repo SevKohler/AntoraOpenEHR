@@ -917,7 +917,7 @@ a + .breadcrumbs {
     hyphens: auto;
     line-height: 1.6;
     margin: 0 auto;
-    max-width: 40rem;
+    max-width: 65rem;
     padding: 0 1rem 4rem
 }
 
@@ -928,7 +928,7 @@ a + .breadcrumbs {
         flex: auto;
         font-size: .94444rem;
         margin: 0 2rem;
-        max-width: 46rem;
+        max-width: 65rem;
         min-width: 0
     }
 }
