@@ -1,0 +1,14 @@
+name: specification-BASE
+version: v1.0.0
+title: Specificaion Base
+nav:
+  - modules/ROOT/nav.adoc
+
+ext:
+  collector:
+    - clean:
+        - dir: build-foo
+        - dir: build-bar
+    - clean:
+        dir: build-baz
+

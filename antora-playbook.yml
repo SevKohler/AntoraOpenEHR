@@ -1,0 +1,23 @@
+antora:
+  extensions:
+    - '@antora/lunr-extension'
+
+site:
+  title: specification BASE
+  start_page: project-name::index.adoc
+content:
+  sources:
+    - url: .
+      branches: HEAD
+
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+
+ui:
+  bundle:
+    url: ./ui/
+
