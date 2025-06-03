@@ -6,15 +6,14 @@ The `base_types.definitions` package shown below defines symbolic definitions us
 
 [.text-center]
 .base.base_types.definitions package
-image::{uml_diagrams_uri}/BASE-base_types.definitions.svg[id=base_definition_types, align="center", width=65%]
-
+image::BASE-base_types.definitions.svg[id=base_definition_types]
 == Class Definitions
 
-include::..UML/classes/{pkg}basic_definitions.adoc[]
+include::../UML/classes/org.openehr.base.base_types.basic_definitions.adoc[]
 
-include::..UML/classes/{pkg}openehr_definitions.adoc[]
+include::../UML/classes/org.openehr.base.base_types.openehr_definitions.adoc[]
 
-include::..UML/classes/{pkg}validity_kind.adoc[]
+include::../UML/classes/org.openehr.base.base_types.validity_kind.adoc[]
 
-include::..UML/classes/{pkg}version_status.adoc[]
+include::../UML/classes/org.openehr.base.base_types.version_status.adoc[]
 

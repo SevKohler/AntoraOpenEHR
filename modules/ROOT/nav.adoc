@@ -1,2 +1,35 @@
 * Base Types
-*** xref:ROOT:foundation_types/master.adoc
+** xref:ROOT:base_types/master01-preface.adoc[leveloffset=+1]
+** xref:ROOT:base_types/master02-overview.adoc[leveloffset=+1]
+** xref:ROOT:base_types/master03-definitions_package.adoc[leveloffset=+1]
+** xref:ROOT:base_types/master04-builtins_package.adoc[leveloffset=+1]
+** xref:ROOT:base_types/master05-identification_package.adoc[leveloffset=+1]
+** xref:ROOT:base_types/master00-amendment_record.adoc[]
+
+* Foundation Types
+** xref:ROOT:foundation_types/master02-overview.adoc[]
+** xref:ROOT:foundation_types//master03-primitive_types.adoc[]
+** xref:ROOT:foundation_types//master04-structure_types.adoc[]
+** xref:ROOT:foundation_types//master05-interval.adoc[]
+** xref:ROOT:foundation_types//master06-time_types.adoc[]
+** xref:ROOT:foundation_types//master07-terminology.adoc[]
+** xref:ROOT:foundation_types//master08-functional.adoc[]
+** xref:ROOT:foundation_types//master.adoc[]
+
+* Architecture overview
+** xref:ROOT:architecture_overview/master01-preface.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master02-overview.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master03-aims.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master04-design_principles.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master05-package_structure.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master06-design_of_the_ehr.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master07-security.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master08-versioning.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master09-identification.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master10-archetypes.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master11-paths.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master12-terminology.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master13-deployment.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master14-integration.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master15-standards.adoc[leveloffset=+1]
+** xref:ROOT:architecture_overview/master16-implementation.adoc[leveloffset=+1]

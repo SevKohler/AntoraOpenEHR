@@ -3,4 +3,3 @@
 :spec_status: STABLE
 :keywords: openehr, identifiers, types
 :description: openEHR Foundation Types specification
-:pkg: org.openehr.base.foundation_types.

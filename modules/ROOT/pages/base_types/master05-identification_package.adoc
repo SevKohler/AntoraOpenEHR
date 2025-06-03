@@ -6,7 +6,7 @@ The `BASE.base_types.identification` package describes a model of references and
 
 [.text-center]
 .base.base_types.identification Package
-image::{uml_diagrams_uri}/BASE-base_types.identification.svg[id=base_identification_types, align="center"]
+image::BASE-base_types.identification.svg[id=base_identification_types, align="center"]
 
 == Requirements
 
@@ -186,37 +186,38 @@ All `OBJECT_IDs` are used as identifier attributes within the thing they identif
 
 == Class Descriptions
 
-include::..UML/classes/{pkg}uid.adoc[]
 
-include::..UML/classes/{pkg}iso_oid.adoc[]
+include::../UML/classes/org.openehr.base.base_types.uid.adoc[]
 
-include::..UML/classes/{pkg}uuid.adoc[]
+include::../UML/classes/org.openehr.base.base_types.iso_oid.adoc[]
 
-include::..UML/classes/{pkg}internet_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.uuid.adoc[]
 
-include::..UML/classes/{pkg}object_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.internet_id.adoc[]
 
-include::..UML/classes/{pkg}uid_based_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.object_id.adoc[]
 
-include::..UML/classes/{pkg}hier_object_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.uid_based_id.adoc[]
 
-include::..UML/classes/{pkg}object_version_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.hier_object_id.adoc[]
 
-include::..UML/classes/{pkg}version_tree_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.object_version_id.adoc[]
 
-include::..UML/classes/{pkg}archetype_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.version_tree_id.adoc[]
 
-include::..UML/classes/{pkg}template_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.archetype_id.adoc[]
 
-include::..UML/classes/{pkg}terminology_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.template_id.adoc[]
 
-include::..UML/classes/{pkg}generic_id.adoc[]
+include::../UML/classes/org.openehr.base.base_types.terminology_id.adoc[]
 
-include::..UML/classes/{pkg}object_ref.adoc[]
+include::../UML/classes/org.openehr.base.base_types.generic_id.adoc[]
 
-include::..UML/classes/{pkg}party_ref.adoc[]
+include::../UML/classes/org.openehr.base.base_types.object_ref.adoc[]
 
-include::..UML/classes/{pkg}locatable_ref.adoc[]
+include::../UML/classes/org.openehr.base.base_types.party_ref.adoc[]
+
+include::../UML/classes/org.openehr.base.base_types.locatable_ref.adoc[]
 
 [[_syntaxes]]
 == Syntaxes

@@ -19,17 +19,17 @@ The following UML diagram illustrates the `base.foundation_types.structures` pac
 
 [.text-center]
 .`base.foundation_types.structures` package
-image::{uml_diagrams_uri}/BASE-foundation_types.structures.svg[id=foundation_types_structure_types, align="center"]
+image::BASE-foundation_types.structures.svg[id=foundation_types_structure_types, align="center"]
 
 == Class Definitions
 
-include::../UML/classes/{pkg}container.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.container.adoc[]
 
-include::../UML/classes/{pkg}list.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.list.adoc[]
 
-include::../UML/classes/{pkg}set.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.set.adoc[]
 
-include::../UML/classes/{pkg}array.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.array.adoc[]
 
-include::../UML/classes/{pkg}hash.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.hash.adoc[]
 

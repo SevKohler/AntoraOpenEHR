@@ -8,20 +8,20 @@ The following illustrates the `functional` package.
 
 [.text-center]
 .base.foundation_types.functional Package
-image::{uml_diagrams_uri}/BASE-foundation_types.functional.svg[id=foundation_types_functional, align="center"]
+image::BASE-foundation_types.functional.svg[]
 
 Two key abstractions are required, namely 'function as a type', and 'tuple', which enables arguments to be formalised. To provide a 'function' type, a 'routine' type is also required. For completeness, a 'procedure' type is also defined. The 'tuple' type is defined as a generic meta-type whose descendants may additionally define any number of generic parameter types, corresponding to a type list.
 
 == Class Definitions
 
-include::../UML/classes/{pkg}routine.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.routine.adoc[]
 
-include::../UML/classes/{pkg}function.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.function.adoc[]
 
-include::../UML/classes/{pkg}procedure.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.procedure.adoc[]
 
-include::../UML/classes/{pkg}tuple.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.tuple.adoc[]
 
-include::../UML/classes/{pkg}tuple1.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.tuple1.adoc[]
 
-include::../UML/classes/{pkg}tuple2.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.tuple2.adoc[]

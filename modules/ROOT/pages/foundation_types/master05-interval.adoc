@@ -10,16 +10,16 @@ The following UML diagram illustrates the `interval` package.
 
 [.text-center]
 .`base.foundation_types.interval` package
-image::{uml_diagrams_uri}/BASE-foundation_types.interval.svg[id=foundation_types_interval, align="center"]
+image::BASE-foundation_types.interval.svg[id=foundation_types_interval, align="center"]
 
 == Class Definitions
 
-include::../UML/classes/{pkg}interval.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.interval.adoc[]
 
-include::../UML/classes/{pkg}point_interval.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.point_interval.adoc[]
 
-include::../UML/classes/{pkg}proper_interval.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.proper_interval.adoc[]
 
-include::../UML/classes/{pkg}multiplicity_interval.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.multiplicity_interval.adoc[]
 
-include::../UML/classes/{pkg}cardinality.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.cardinality.adoc[]

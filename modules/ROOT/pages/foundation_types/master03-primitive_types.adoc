@@ -27,7 +27,7 @@ The figure below illustrates these types. Simple inheritance relationships are s
 
 [.text-center]
 .`base.foundation_types.primitive_types` Package
-image::{uml_diagrams_uri}/BASE-foundation_types.primitive_types.svg[id=foundation_types_primitive_types, align="center"]
+image::BASE-foundation_types.primitive_types.svg[id=foundation_types_primitive_types, align="center"]
 
 == Unicode
 
@@ -35,26 +35,26 @@ It is assumed in the openEHR specifications that Unicode is supported by the typ
 
 == Class Definitions
 
-include::../UML/classes/{pkg}boolean.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.boolean.adoc[]
 
-include::../UML/classes/{pkg}ordered.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.ordered.adoc[]
 
-include::../UML/classes/{pkg}character.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.character.adoc[]
 
-include::../UML/classes/{pkg}octet.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.octet.adoc[]
 
-include::../UML/classes/{pkg}string.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.string.adoc[]
 
-include::../UML/classes/{pkg}uri.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.uri.adoc[]
 
-include::../UML/classes/{pkg}numeric.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.numeric.adoc[]
 
-include::../UML/classes/{pkg}ordered_numeric.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.ordered_numeric.adoc[]
 
-include::../UML/classes/{pkg}integer.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.integer.adoc[]
 
-include::../UML/classes/{pkg}integer64.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.integer64.adoc[]
 
-include::../UML/classes/{pkg}real.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.real.adoc[]
 
-include::../UML/classes/{pkg}double.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.double.adoc[]

@@ -8,7 +8,7 @@ The `time` package is shown below.
 
 [.text-center]
 .`base.foundation_types.time` package
-image::{uml_diagrams_uri}/BASE-foundation_types.time.svg[id=foundation_types_time_types, align="center"]
+image::BASE-foundation_types.time.svg[id=foundation_types_time_types, align="center"]
 
 == Primitive Time Types
 
@@ -42,7 +42,7 @@ A number of useful types may be generated from the Date/time classes and the Int
 
 [.text-center]
 .Useful time interval types
-image::{uml_diagrams_uri}/BASE-foundation_types.time-intervals.svg[id=foundation_types_time_intervals, align="center"]
+image::BASE-foundation_types.time-intervals.svg[id=foundation_types_time_intervals, align="center"]
 
 == Computational Functions
 
@@ -61,18 +61,18 @@ The definite functions have standard operators such as `'\+'`, `'-'`, etc. assoc
 
 == Class Definitions
 
-include::../UML/classes/{pkg}time_definitions.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.time_definitions.adoc[]
 
-include::../UML/classes/{pkg}temporal.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.temporal.adoc[]
 
-include::../UML/classes/{pkg}iso8601_type.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.iso8601_type.adoc[]
 
-include::../UML/classes/{pkg}iso8601_date.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.iso8601_date.adoc[]
 
-include::../UML/classes/{pkg}iso8601_time.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.iso8601_time.adoc[]
 
-include::../UML/classes/{pkg}iso8601_date_time.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.iso8601_date_time.adoc[]
 
-include::../UML/classes/{pkg}iso8601_duration.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.iso8601_duration.adoc[]
 
-include::../UML/classes/{pkg}iso8601_timezone.adoc[]
+include::../UML/classes/org.openehr.base.foundation_types.iso8601_timezone.adoc[]

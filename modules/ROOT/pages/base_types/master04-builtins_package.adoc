@@ -6,13 +6,13 @@ The `BASE.base_types.builtins` package includes interface classes that provide c
 
 [.text-center]
 .base.base_types.builtins Package
-image::{uml_diagrams_uri}/BASE-base_types.builtins.svg[id=base_builtins, align="center", width=100%]
+image::BASE-base_types.builtins.svg[id=base_builtins]
 
 == Class Definitions
 
-include::..UML/classes/{pkg}env.adoc[]
-include::..UML/classes/{pkg}locale.adoc[]
-include::..UML/classes/{pkg}statistical_evaluator.adoc[]
-include::..UML/classes/{pkg}math.adoc[]
-include::..UML/classes/{pkg}quantity_converter.adoc[]
+include::../UML/classes/org.openehr.base.base_types.env.adoc[]
+include::../UML/classes/org.openehr.base.base_types.locale.adoc[]
+include::../UML/classes/org.openehr.base.base_types.statistical_evaluator.adoc[]
+include::../UML/classes/org.openehr.base.base_types.math.adoc[]
+include::../UML/classes/org.openehr.base.base_types.quantity_converter.adoc[]
 
