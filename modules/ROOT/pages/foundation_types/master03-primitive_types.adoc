@@ -35,26 +35,26 @@ It is assumed in the openEHR specifications that Unicode is supported by the typ
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/{pkg}boolean.adoc[]
+include::../UML/classes/{pkg}boolean.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}ordered.adoc[]
+include::../UML/classes/{pkg}ordered.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}character.adoc[]
+include::../UML/classes/{pkg}character.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}octet.adoc[]
+include::../UML/classes/{pkg}octet.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}string.adoc[]
+include::../UML/classes/{pkg}string.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}uri.adoc[]
+include::../UML/classes/{pkg}uri.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}numeric.adoc[]
+include::../UML/classes/{pkg}numeric.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}ordered_numeric.adoc[]
+include::../UML/classes/{pkg}ordered_numeric.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}integer.adoc[]
+include::../UML/classes/{pkg}integer.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}integer64.adoc[]
+include::../UML/classes/{pkg}integer64.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}real.adoc[]
+include::../UML/classes/{pkg}real.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}double.adoc[]
+include::../UML/classes/{pkg}double.adoc[]

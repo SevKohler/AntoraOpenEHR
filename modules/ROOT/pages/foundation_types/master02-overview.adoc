@@ -54,4 +54,4 @@ image::{uml_diagrams_uri}/BASE-foundation_types-leaf_types.svg[id=foundation_typ
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/{pkg}any.adoc[]
+include::../UML/classes/{pkg}any.adoc[]

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: specification BASE</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">specification BASE</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+           <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">Specifications</a>
+            <div class="navbar-dropdown">
+              <div class="navbar-item">
+                <strong>FHIR</strong>
+              </div>
+               <a class="navbar-item" href="https://build.fhir.org/" target="_blank" rel="noopener noreferrer">FHIR specification</a>
+              <div class="navbar-item">
+                <strong>openEHR</strong>
+              </div>
+              <a class="navbar-item" href="https://specifications.openehr.org/" target="_blank" rel="noopener noreferrer">openEHR specification</a>
+              <a class="navbar-item" href="https://specifications.openehr.org/releases/UML/development/index.html" target="_blank" rel="noopener noreferrer">openEHR portal</a>
+              <a class="navbar-item" href="https://ckm.openehr.org/ckm/" target="_blank" rel="noopener noreferrer">openEHR CKM</a>
+            </div>
+          </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Projects</a>
+          <div class="navbar-dropdown">
+              <div class="navbar-item">
+                <strong>FHIRconnect-spec</strong>
+              </div>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-spec" target="_blank" rel="noopener noreferrer">repository</a>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-spec/issues" target="_blank" rel="noopener noreferrer">Issue tracker</a>
+            <div class="navbar-item">
+                <strong>FHIRconnect mapping library</strong>
+            </div>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-mapping-lib" target="_blank" rel="noopener noreferrer">repository</a>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-mapping-lib/issues" target="_blank" rel="noopener noreferrer">Issue tracker</a>
+          </div>
+        </div>
+           <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">Community</a>
+            <div class="navbar-dropdown">
+              <div class="navbar-dropdown is-right">
+              <a class="navbar-item" href="https://discourse.openehr.org/" target="_blank" rel="noopener noreferrer">Chat</a>
+              <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-spec/blob/main/CODE_OF_CONDUCT.adoc" target="_blank" rel="noopener noreferrer">Code of Conduct</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="specification-BASE" data-version="v1.0.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../index.html">Specificaion Base</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Base Types</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">xref:ROOT:foundation_types/master.adoc</span>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Specificaion Base</span>
+    <span class="version">v1.0.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../index.html">Specificaion Base</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../index.html">v1.0.0</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+<div class="edit-this-page"><a href="file:///home/severin/repos/AntoraOpenEHR/modules/ROOT/pages/UML/classes/org.openehr.base.foundation_types.time_definitions.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="sect2">
+<h3 id="time_definitions-class"><a class="anchor" href="#time_definitions-class"></a>Time_Definitions Class</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>Time_Definitions</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>Definitions for date/time classes. Note that the timezone limits are set by where the international dateline is. Thus, time in New Zealand is quoted using <code>+12:00</code>, not <code>-12:00</code>.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Constants</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Seconds_in_minute</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;60</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Number of seconds in a minute.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Minutes_in_hour</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;60</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Number of minutes in an hour.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Hours_in_day</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;24</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Number of clock hours in a day, i.e. 24.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Average_days_in_month</strong>: <code><a href="#_real_class">Real</a>&#160;=&#160;30.42</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Used for conversions of durations containing months to days and / or seconds.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Max_days_in_month</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;31</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum number of days in any month.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Days_in_year</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;365</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Calendar days in a normal year, i.e. 365.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Average_days_in_year</strong>: <code><a href="#_real_class">Real</a>&#160;=&#160;365.24</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Used for conversions of durations containing years to days and / or seconds.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Days_in_leap_year</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;366</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Calendar days in a standard leap year, i.e. 366.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Max_days_in_year</strong>: <code><a href="#_integer_class">Integer</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum number of days in a year, i.e. accounting for leap years.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Days_in_week</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;7</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Number of days in a week.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Months_in_year</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;12</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Number of months in a year.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Min_timezone_hour</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;12</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Minimum hour value of a timezone  according to ISO 8601 (note that the -ve sign is supplied in the <code>ISO8601_TIMEZONE</code> class).</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Max_timezone_hour</strong>: <code><a href="#_integer_class">Integer</a>&#160;=&#160;14</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum hour value of a timezone according to ISO 8601.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Nominal_days_in_month</strong>: <code><a href="#_real_class">Real</a>&#160;=&#160;30.42</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Used for conversions of durations containing months to days and / or seconds.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Nominal_days_in_year</strong>: <code><a href="#_real_class">Real</a>&#160;=&#160;365.24</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Used for conversions of durations containing years to days and / or seconds.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Functions</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_year</strong> (<br>
+y: <code><a href="#_integer_class">Integer</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = y &gt;= 0</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>y &gt;= 0</code>.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_month</strong> (<br>
+m: <code><a href="#_integer_class">Integer</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = m &gt;= 1 and m &lt;= Months_in_year</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>m &gt;= 1 and m &lt;= months_in_year</code>.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_day</strong> (<br>
+y: <code><a href="#_integer_class">Integer</a>[1]</code>,<br>
+m: <code><a href="#_integer_class">Integer</a>[1]</code>,<br>
+d: <code><a href="#_integer_class">Integer</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = d &gt;= 1 and d &lt;= days_in_month (m, y)</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>d &gt;= 1 and d &lt;= days_in_month (m, y)</code>.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_hour</strong> (<br>
+h: <code><a href="#_integer_class">Integer</a>[1]</code>,<br>
+m: <code><a href="#_integer_class">Integer</a>[1]</code>,<br>
+s: <code><a href="#_integer_class">Integer</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = (h &gt;= 0 and h &lt; Hours_in_day) or (h = Hours_in_day and m = 0 and s = 0)</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>(h &gt;= 0 and h &lt; Hours_in_day) or (h = Hours_in_day and m = 0 and s = 0)</code> .</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_minute</strong> (<br>
+m: <code><a href="#_integer_class">Integer</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = m &gt;= 0 and m &lt; Minutes_in_hour</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>m &gt;= 0 and m &lt; Minutes_in_hour</code>.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_second</strong> (<br>
+s: <code><a href="#_integer_class">Integer</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = s &gt;= 0 and s &lt; Seconds_in_minute</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>s &gt;= 0 and s &lt; Seconds_in_minute</code> .</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_fractional_second</strong> (<br>
+fs: <code><a href="#_double_class">Double</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code><br>
+<br>
+<em>Post</em>: <code>Result = fs &gt;= 0.0 and fs &lt; 1.0</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>True if <code>fs &gt;= 0.0</code> and <code>fs &lt; 1.0</code> .</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_iso8601_date</strong> (<br>
+s: <code><a href="#_string_class">String</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>String is a valid ISO 8601 date, i.e. takes the complete form:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>YYYY-MM-DD</code> (extended, preferred) or one of the partial forms <code>YYYY-MM</code> or <code>YYYY</code></p>
+</li>
+<li>
+<p><code>YYYYMMDD</code> (compact) or a partial variant <code>YYYYMM</code>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Where:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>YYYY</code> is the string form of any positive number in the range <code>0000</code> - <code>9999</code> (zero-filled to four digits)</p>
+</li>
+<li>
+<p><code>MM</code> is <code>01</code> - <code>12</code> (zero-filled to two digits)</p>
+</li>
+<li>
+<p><code>DD</code> is <code>01</code> - <code>31</code> (zero-filled to two digits)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The combinations of <code>YYYY</code>, <code>MM</code>, <code>DD</code> numbers must be correct with respect to the Gregorian calendar.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_iso8601_time</strong> (<br>
+s: <code><a href="#_string_class">String</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>String is a valid ISO 8601 date, i.e. takes the form:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>hh:mm:ss[(,&#124;.)s+][Z&#124;±hh[:mm]]</code> (extended)</p>
+</li>
+<li>
+<p><code>hhmmss[(,&#124;.)s+][Z&#124;±hh[mm]]</code> (compact)</p>
+</li>
+<li>
+<p>or one of the partial forms:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>hh:mm</code> (extended)</p>
+</li>
+<li>
+<p><code>hhmm</code> or <code>hh</code> (compact)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>with an additional optional timezone indicator of:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>Z</code> or <code>±hh[:mm]</code> (extended)  <code>±hh[mm]</code> (compact)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Where:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>hh</code> is "00" - "23" (0-filled to two digits)</p>
+</li>
+<li>
+<p><code>mm</code> is "00" - "59" (0-filled to two digits)</p>
+</li>
+<li>
+<p><code>ss</code> is "00" - "60" (0-filled to two digits)</p>
+</li>
+<li>
+<p><code>[(,&#124;.)s+]</code> is an optional string consisting of a comma or decimal point followed by numeric string of 1 or more digits, representing a fractional second</p>
+</li>
+<li>
+<p><code>Z</code> is a literal meaning UTC (modern replacement for GMT), i.e. timezone <code>+0000</code></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_iso8601_date_time</strong> (<br>
+s: <code><a href="#_string_class">String</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>String is a valid ISO 8601 date-time, i.e. takes the form:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>YYYY-MM-DDThh:mm:ss[(,&#124;.)s+][Z&#124;±hh[:mm]]</code> (extended)</p>
+</li>
+<li>
+<p><code>YYYYMMDDThhmmss[(,&#124;.)s+][Z&#124;±hh[mm]]</code> (compact)</p>
+</li>
+<li>
+<p>or one of the partial forms:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>YYYY-MM-DDThh:mm</code> or <code>YYYY-MM-DDThh</code> (extended)</p>
+</li>
+<li>
+<p><code>YYYYMMDDThhmm</code> or <code>YYYYMMDDThh</code> (compact)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>valid_iso8601_duration</strong> (<br>
+s: <code><a href="#_string_class">String</a>[1]</code><br>
+): <code><a href="#_boolean_class">Boolean</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>String is a valid ISO 8601 duration, i.e. takes the form:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>P[nnY][nnM][nnW][nnD][T[nnH][nnM][nnS]]</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Where each nn represents a number of years, months, etc. <code>nnW</code> represents a number of 7-day weeks.</p>
+</div>
+<div class="paragraph">
+<p>Note: allowing the <code>W</code> designator in the same expression as other designators is an exception to the published standard, but necessary in clinical information (typically for representing pregnancy duration).</p>
+</div>
+<div class="hdlist">
+<div class="title">Parameters<br></div>
+<table>
+<tr>
+<td class="hdlist1">
+<code><em>s</em></code>
+</td>
+<td class="hdlist2">
+<p>String is a valid ISO 8601 duration, i.e. takes the form:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>P[nnY][nnM][nnW][nnD][T[nnH][nnM][nnS]]</code></p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Where each <code>nn</code> represents a number of years, months, etc. <code>nnW</code> represents a number of 7- day weeks.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+allowing the <code>W</code> designator in the same expression as other designators is an exception to the published standard, but necessary in clinical information (typically for representing pregnancy duration).
+</td>
+</tr>
+</table>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../../../_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="../../../../_/js/vendor/highlight.js"></script>
+<script src="../../../../_/js/vendor/lunr.js"></script>
+<script src="../../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>

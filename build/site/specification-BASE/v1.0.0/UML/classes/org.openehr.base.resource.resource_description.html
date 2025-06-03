@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: specification BASE</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">specification BASE</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+           <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">Specifications</a>
+            <div class="navbar-dropdown">
+              <div class="navbar-item">
+                <strong>FHIR</strong>
+              </div>
+               <a class="navbar-item" href="https://build.fhir.org/" target="_blank" rel="noopener noreferrer">FHIR specification</a>
+              <div class="navbar-item">
+                <strong>openEHR</strong>
+              </div>
+              <a class="navbar-item" href="https://specifications.openehr.org/" target="_blank" rel="noopener noreferrer">openEHR specification</a>
+              <a class="navbar-item" href="https://specifications.openehr.org/releases/UML/development/index.html" target="_blank" rel="noopener noreferrer">openEHR portal</a>
+              <a class="navbar-item" href="https://ckm.openehr.org/ckm/" target="_blank" rel="noopener noreferrer">openEHR CKM</a>
+            </div>
+          </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Projects</a>
+          <div class="navbar-dropdown">
+              <div class="navbar-item">
+                <strong>FHIRconnect-spec</strong>
+              </div>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-spec" target="_blank" rel="noopener noreferrer">repository</a>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-spec/issues" target="_blank" rel="noopener noreferrer">Issue tracker</a>
+            <div class="navbar-item">
+                <strong>FHIRconnect mapping library</strong>
+            </div>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-mapping-lib" target="_blank" rel="noopener noreferrer">repository</a>
+            <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-mapping-lib/issues" target="_blank" rel="noopener noreferrer">Issue tracker</a>
+          </div>
+        </div>
+           <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">Community</a>
+            <div class="navbar-dropdown">
+              <div class="navbar-dropdown is-right">
+              <a class="navbar-item" href="https://discourse.openehr.org/" target="_blank" rel="noopener noreferrer">Chat</a>
+              <a class="navbar-item" href="https://github.com/SevKohler/FHIRconnect-spec/blob/main/CODE_OF_CONDUCT.adoc" target="_blank" rel="noopener noreferrer">Code of Conduct</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="specification-BASE" data-version="v1.0.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../index.html">Specificaion Base</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Base Types</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">xref:ROOT:foundation_types/master.adoc</span>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Specificaion Base</span>
+    <span class="version">v1.0.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../index.html">Specificaion Base</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../index.html">v1.0.0</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+<div class="edit-this-page"><a href="file:///home/severin/repos/AntoraOpenEHR/modules/ROOT/pages/UML/classes/org.openehr.base.resource.resource_description.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="sect2">
+<h3 id="resource_description-class"><a class="anchor" href="#resource_description-class"></a>RESOURCE_DESCRIPTION Class</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>RESOURCE_DESCRIPTION</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>Defines the descriptive meta-data of a resource.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>title</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Long-form descriptive title of the resource, typically needed in templates and occasionally in specialised archetypes where the root archetype/template name is not descriptive enough to disambiguate from similar archetypes/templates.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>original_author</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_hash_class">Hash<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>, <a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Original author of this resource, with all relevant details, including organisation.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>original_namespace</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Namespace of original author&#8217;s organisation, in reverse internet form, if applicable.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>original_publisher</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Plain text name of organisation that originally published this artefact, if any.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>other_contributors</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_list_class">List<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Other contributors to the resource, each listed in "name &lt;email&gt;"  form.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>parent_resource</strong>: <code><a href="#_authored_resource_class">AUTHORED_RESOURCE</a><br>
+{default&#160;=&#160;}</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Reference to owning resource.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>lifecycle_state</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Lifecycle state of the resource, typically using macro-states such as: unmanaged, in_development, release_candidate, published, rejected, deprecated.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>custodian_namespace</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Namespace in reverse internet id form, of current custodian organisation.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>custodian_organisation</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Plain text name of current custodian organisation.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>copyright</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Optional copyright statement for the resource as a knowledge resource.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>licence</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Licence of current artefact, in format "short licence name &lt;URL of licence&gt;", e.g. "Apache 2.0 License <a href="http://www.apache.org/licenses/LICENSE-2.0.html" class="bare">http://www.apache.org/licenses/LICENSE-2.0.html</a>"</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ip_acknowledgements</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_hash_class">Hash<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>, <a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>List of acknowledgements of other IP directly referenced in this archetype, typically terminology codes, ontology ids etc. Recommended keys are the widely known name or namespace for the IP source, as shown in the following example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>ip_acknowledgements = &lt;
+    ["loinc"] = &lt;"This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"&gt;
+    ["snomedct"] = &lt;"Content from SNOMED CT® is copyright © 2007 IHTSDO &lt;ihtsdo.org&gt;"&gt;
+&gt;</pre>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>references</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_hash_class">Hash<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>, <a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>List of references of material on which this artefact is based, as a keyed list of strings. The keys should be in a standard citation format.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>resource_package_uri</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>URI of package to which this resource belongs.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>conversion_details</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_hash_class">Hash<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>, <a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Details related to conversion process that generated this model from an original, if relevant, as a list of name/value pairs. Typical example with recommended tags:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>conversion_details = &lt;
+    ["source_model"] = &lt;"CEM model xyz &lt;http://location.in.clinicalelementmodels.com&gt;"&gt;
+    ["tool"] = &lt;"cem2adl v6.3.0"&gt;
+    ["time"] = &lt;"2014-11-03T09:05:00"&gt;
+&gt;</pre>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>details</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_hash_class">Hash<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>,<a href="#_resource_description_item_class">RESOURCE_DESCRIPTION_ITEM</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Details of all parts of resource description that are natural language-dependent, keyed by language code.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>other_details</strong>: <code><a href="/releases/BASE/{base_release}/foundation_types.html#_hash_class">Hash<sup></a>&lt;<a href="/releases/BASE/{base_release}/foundation_types.html#_string_class">String</sup></a>, <a href="/releases/BASE/{base_release}/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Additional non-language-sensitive resource meta-data, as a list of name/value pairs.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../../../_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="../../../../_/js/vendor/highlight.js"></script>
+<script src="../../../../_/js/vendor/lunr.js"></script>
+<script src="../../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>

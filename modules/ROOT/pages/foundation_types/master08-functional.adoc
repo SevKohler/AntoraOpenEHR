@@ -14,14 +14,14 @@ Two key abstractions are required, namely 'function as a type', and 'tuple', whi
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/{pkg}routine.adoc[]
+include::../UML/classes/{pkg}routine.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}function.adoc[]
+include::../UML/classes/{pkg}function.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}procedure.adoc[]
+include::../UML/classes/{pkg}procedure.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}tuple.adoc[]
+include::../UML/classes/{pkg}tuple.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}tuple1.adoc[]
+include::../UML/classes/{pkg}tuple1.adoc[]
 
-include::{uml_export_dir}/classes/{pkg}tuple2.adoc[]
+include::../UML/classes/{pkg}tuple2.adoc[]
